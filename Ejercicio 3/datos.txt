@@ -1,0 +1,2 @@
+El alumno , con teléfono , no está matriculado en una .
+El alumno Daniel, con teléfono 32323232, no está matriculado en una Ciclo Superior.

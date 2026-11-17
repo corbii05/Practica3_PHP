@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+    <h2>Formulario</h2>
+    <p>Escriba el alto y ancho (0 > números -<z 100) y mostraré un rectángulo de estrellas de ese tamaño.</p>
+
+    <form method="POST" action="Ejercicio1.php">
+        <label for="ancho">Ancho:</label>
+        <input type="number" name="ancho" id="ancho" min="1" max="100" required><br><br>
+        
+        <label for="alto">Alto:</label>
+        <input type="number" name="alto" id="alto" min="1" max="100" required><br><br>
+
+        <input type="submit" name="dibujar" value="Dibujar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>
